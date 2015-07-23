@@ -1,0 +1,30 @@
+
+
+.calculator{
+	background-color: #e1e1e1;
+	width: 500px;
+	min-height: 300px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.calculator table{
+	text-align: left;
+	margin: 20px auto;
+}
+
+.calculator td{
+  padding: 10px 10px 0 0;
+}
+
+.display{
+	width: 200px;
+	height: 40px;
+	text-align: right;
+	padding: 7px;
+}
+
+.calc-btn{
+	width: 40px;
+ 	height: 40px;
+}

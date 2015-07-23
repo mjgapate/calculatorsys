@@ -1,0 +1,53 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Calculator System</title>
+
+</head>
+<body>
+	<div class="calculator">
+		<form name="calculator">
+			<table border="0">
+				<tbody>
+					<tr>
+						<td class="input" colspan="5"><input class="display" type="text" id="display" value="0"></td>
+					</tr>
+					<tr>
+						<td class="btn"><input type="button" class="calc-btn" id="clear" value="CE" onclick="clearText()"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="erase" value="C"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="modulo" value="%"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="add" value="+"></td>
+					</tr>
+					<tr>
+						<td class="btn"><input type="button" class="calc-btn" id="seven" value="7" onclick="sevenValue()"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="eight" value="8" onclick="eightValue()"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="nine" value="9" onclick="nineValue()"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="subtract" value="-"></td>
+					</tr>
+					<tr>
+						<td class="btn"><input type="button" class="calc-btn" id="four" value="4" onclick="fourValue()"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="five" value="5" onclick="fiveValue()"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="six" value="6" onclick="sixValue()"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="multiply" value="X"></td>
+					</tr>
+					<tr>
+						<td class="btn"><input type="button" class="calc-btn" id="one" value="1" onclick="oneValue()"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="two" value="2" onclick="twoValue()"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="three" value="3" onclick="threeValue()"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="divide" value="/"></td>
+					</tr>
+					<tr>
+						<td class="btn"><input type="button" class="calc-btn" id="zero" value="0" onclick="zeroValue()"></td>
+						<td class="btn"><input type="button" class="calc-btn" id="point" value="."></td>
+						<td class="btn"><input type="button" class="calc-btn" id="equals" value="="></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
