@@ -13,12 +13,19 @@ var stateTextBox = document.getElementById("display");
 
 
 }*/
+
+
+function displayValue(){
+	
+	console.log("VALUE:" + stateTextBox.value);
+	return stateTextBox.value;
+}
+
 function nineValue() {
 	var nine = document.getElementById('nine').value;
 	stateTextBox.value = nine;
 	console.log(stateTextBox.value);
 	return stateTextBox.value;
-	displayValue();
 }
 
 function eightValue() {
@@ -87,17 +94,13 @@ function zeroValue() {
 
 function clearText(){
 	if(stateTextBox.value > 1){
-		document.getElementById("display").value = 0;
-		outPut.innerHTML = 0;
+		output = document.getElementById("display").value = 0;
+		output.innerHTML = 0;
+		console.log(stateTextBox.value);
+
 	}
 
 	return stateTextBox;
-	console.log(stateTextBox.value);
-}
-
-
-function displayValue(){
 	
-	console.log("VALUE:" + stateTextBox.value);
-
 }
+
