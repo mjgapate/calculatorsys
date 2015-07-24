@@ -15,12 +15,6 @@ var stateTextBox = document.getElementById("display");
 }*/
 
 
-function displayValue(){
-	
-	console.log("VALUE:" + stateTextBox.value);
-	return stateTextBox.value;
-}
-
 function nineValue() {
 	var nine = document.getElementById('nine').value;
 	stateTextBox.value = nine;
@@ -104,3 +98,9 @@ function clearText(){
 	
 }
 
+function displayValue(){
+	var first = document.activeElement.value;
+	var display = document.getElementById("display").value; 
+	first = display;
+	console.log("VALUE: " + first);
+}
